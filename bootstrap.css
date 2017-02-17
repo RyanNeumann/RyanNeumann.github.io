@@ -40,10 +40,8 @@
           box-sizing: border-box;
 }
 
-div.profileImage {
+div.profile {
     
-    height: 300px;
-    width: 300px;
     
     border-radius: 100%; /*don't forget prefixes*/
     border-color: floralwhite;
