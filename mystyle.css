@@ -1,10 +1,15 @@
 body {
-    background-color: 9B26AF;
+   
+    background: #8E0E00; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #8E0E00 , #1F1C18); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #8E0E00 , #1F1C18); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    
 }
 
 
 h1 {
-    color: 68efad;
+    color: white;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -13,11 +18,14 @@ h1 {
 
 div.profileImage {
     
-    width: 60%;
-    height: 50%;
-    border-radius: 50%; /*don't forget prefixes*/
+    width: 300px;
+    height: 300px;
+    
+    border-radius: 100%; /*don't forget prefixes*/
+    border-color: floralwhite;
     background-image: url("https://media.licdn.com/media/AAEAAQAAAAAAAAQgAAAAJDI0MDkzN2Q4LTkxOWEtNDI1OS1hNjk1LTg0NTVkZTcyOTQyOA.jpg");
     background-position: center center;
     background-size: cover;
     
 }
+
