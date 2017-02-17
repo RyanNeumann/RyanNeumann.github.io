@@ -3,7 +3,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Home</title>
+    <title>Contact</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -19,6 +19,7 @@
         background: linear-gradient(to left, #F00000 , #DC281E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
         background-size: cover;
       }
+
       /* Custom container */
       .container {
         margin: 0 auto;
@@ -27,6 +28,7 @@
       .container > hr {
         margin: 60px 0;
       }
+
       /* Main marketing message and sign up button */
       .jumbotron {
         margin: 80px 0;
@@ -44,6 +46,7 @@
         font-size: 21px;
         padding: 14px 24px;
       }
+
       /* Supporting marketing content */
       .marketing {
         margin: 60px 0;
@@ -51,6 +54,8 @@
       .marketing p + h4 {
         margin-top: 28px;
       }
+
+
       /* Customize the navbar links to be fill the entire space of the .navbar */
       .navbar .navbar-inner {
         padding: 0;
@@ -105,87 +110,49 @@
           <div class="navbar-inner">
             <div class="container">
               <ul class="nav">
-                <li class="active"><a href="index.html">Home</a></li>
+                <li><a href="http://ryanmneumann.me">Home</a></li>
                 <li><a href="Resume.html">Resume</a></li>
-                <li><a href="Contact.html">Contact</a></li>
+                <li class="active"><a href="Contact.html">Contact</a></li>
               </ul>
             </div>
           </div>
         </div><!-- /.navbar -->
-        </div>
-        
-      <!-- Jumbotron -->
-      <div class="jumbotron">
-        <h1>Welcome!</h1>
-        
-      </div>
-      <hr>
-        
-        <div class="row-fluid">
-        <div class="span4">
-            <h1><font color= ghostWhite>About Me</font></h1>
-            <h4 class="test" style="text-indent: 4em;"><font color = white>I am currently a Junior at Marist College pursuing a degree in computer science.  My goal is to obtain an internship or research opportunity that will allow me to utilize my problem solving skills and attention to detail to further develop my abilities in the field of computer science.</font></h4>
-        </div>
-        <div class="span4">
-          <br />
-            <br />
-          <center /><div class="profileImage"></div>
-          </div>
-        <div class="span4">
-          <h1><font color= ghostWhite>Details</font></h1>
-            <h3 style="text-indent: 1em;">Name:</h3>
-            <h4 style="text-indent: 2em;"><font color= white>Ryan Michael Neumann</font></h4>
-            <br />
-            <h3 style="text-indent: 1em;">Age:</h3>
-            <h4 style="text-indent: 2em;"><font color= white>21</font></h4>
-            <br />
-            <h3 style="text-indent: 1em;">Location:</h3>
-            <h4 style="text-indent: 2em;"><font color= white>Poughkeepsie, NY 12601</font></h4>
-        </div>
       </div>
         
-      <hr>
-
-      <!-- Example row of columns -->
-      <div class="row-fluid">
-        <div class="span4">
-          <center /><h1>Create</h1>
-          <img src="Images/Create@3x.png" alt="create" width="100%" height="100%">
-        </div>
-        <div class="span4">
-          <center /><h1>Code</h1>
-          <img src="Images/Code@3x.png" alt="create" width="100%" height="100%">
-          </div>
-        <div class="span4">
-          <center /><h1>Deliver</h1>
-          <img src="Images/Deliver@3x.png" alt="create" width="100%" height="100%">
-        </div>
+        <div class="container">  
+            
+            <script language="JavaScript">
+var frmvalidator  = new Validator("contactform");
+frmvalidator.addValidation("name","req","Please provide your name");
+frmvalidator.addValidation("email","req","Please provide your email");
+frmvalidator.addValidation("email","email",
+  "Please enter a valid email address");
+</script>
+  <form id="contact" action="contact-form-handler.php" method="post" enctype="text/plain">
+    <h3>Quick Contact</h3>
+    <h4>Need a project done? Contact me today, and get reply with in 24 hours!</h4>
+    <fieldset>
+      <input placeholder="Your name" type="text" tabindex="1" required autofocus name="name">
+    </fieldset>
+    <fieldset>
+      <input placeholder="Your Email Address" type="email" tabindex="2" required name="email">
+    </fieldset>
+    <fieldset>
+      <input placeholder="Your Phone Number" type="tel" tabindex="3" required name="number">
+    </fieldset>
+    <fieldset>
+      <textarea placeholder="Tell me about your project..." tabindex="5" required value="text" name="message"></textarea>
+    </fieldset>
+    <fieldset>
+      <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+    </fieldset>
+      <center /><h3>Thank you! Your message has been sent.</h3>
+  </form>
+ 
+            
+  
+</div>
+        
       </div>
-
-      <hr>
-
-      <div class="footer">
-        <center /><p>&copy; Ryan Neumann 2017</p>
-      </div>
-
-    </div> <!-- /container -->
-
-    <!-- Le javascript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="../assets/js/jquery.js"></script>
-    <script src="../assets/js/bootstrap-transition.js"></script>
-    <script src="../assets/js/bootstrap-alert.js"></script>
-    <script src="../assets/js/bootstrap-modal.js"></script>
-    <script src="../assets/js/bootstrap-dropdown.js"></script>
-    <script src="../assets/js/bootstrap-scrollspy.js"></script>
-    <script src="../assets/js/bootstrap-tab.js"></script>
-    <script src="../assets/js/bootstrap-tooltip.js"></script>
-    <script src="../assets/js/bootstrap-popover.js"></script>
-    <script src="../assets/js/bootstrap-button.js"></script>
-    <script src="../assets/js/bootstrap-collapse.js"></script>
-    <script src="../assets/js/bootstrap-carousel.js"></script>
-    <script src="../assets/js/bootstrap-typeahead.js"></script>
-
-  </body>
+    </body>
 </html>

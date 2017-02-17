@@ -42,12 +42,12 @@
 
 div.profileImage {
     
-    width: 400px;
-    height: 400px;
+    height: 300px;
+    width: 300px;
     
     border-radius: 100%; /*don't forget prefixes*/
     border-color: floralwhite;
-    background-image: url("https://media.licdn.com/media/AAEAAQAAAAAAAAQgAAAAJDI0MDkzN2Q4LTkxOWEtNDI1OS1hNjk1LTg0NTVkZTcyOTQyOA.jpg");
+    background-image: url("http://ryanmneumann.me/LinkedInProfile.jpg");
     background-position: center center;
     background-size: cover;
     
@@ -759,6 +759,17 @@ h6 {
   text-rendering: optimizelegibility;
 }
 
+h4.test{
+    
+    margin: 10px 0;
+    font-family: inherit;
+    font-weight: bold;
+    line-height: 35px;
+    color: ghostwhite;
+    text-rendering: optimizelegibility;
+    
+    
+}
 h1 small,
 h2 small,
 h3 small,
@@ -770,6 +781,14 @@ h6 small {
   color: #999999;
 }
 
+
+
+ul.big{
+    margin: 2em;
+    font-size: 16px;
+    color: white;
+    text-rendering: optimizeLegibility;
+}
 h1,
 h2,
 h3 {
@@ -789,6 +808,11 @@ h3 {
 }
 
 h4 {
+  font-size: 17.5px;
+}
+
+
+h4.test {
   font-size: 17.5px;
 }
 
@@ -813,6 +837,10 @@ h3 small {
 }
 
 h4 small {
+  font-size: 14px;
+}
+
+h4.test small {
   font-size: 14px;
 }
 
@@ -3906,6 +3934,14 @@ input[type="submit"].btn.btn-mini {
   margin: 0;
 }
 
+.alert h4.test {
+  color: #c09853;
+}
+
+.alert h4.test {
+  margin: 0;
+}
+
 .alert .close {
   position: relative;
   top: -2px;
@@ -6122,6 +6158,12 @@ a.badge:focus {
   color: #ffffff;
 }
 
+.carousel-caption h4.test,
+.carousel-caption p {
+  line-height: 20px;
+  color: #ffffff;
+}
+
 .carousel-caption h4 {
   margin: 0 0 5px;
 }
@@ -6231,6 +6273,8 @@ body {
 	display:block;
 	font-size:13px;
 }
+
+
 
 fieldset {
 	border: medium none !important;
