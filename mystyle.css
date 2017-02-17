@@ -7,13 +7,14 @@ h1 {
     color: 68efad;
     margin-left: auto;
     margin-right: auto;
-    width: 332;
+    text-align: center;
+    width: 50%;
 }
 
 div.profileImage {
     
-    width: 300px;
-    height: 300px;
+    width: 60%;
+    height: 50%;
     border-radius: 50%; /*don't forget prefixes*/
     background-image: url("https://media.licdn.com/media/AAEAAQAAAAAAAAQgAAAAJDI0MDkzN2Q4LTkxOWEtNDI1OS1hNjk1LTg0NTVkZTcyOTQyOA.jpg");
     background-position: center center;
