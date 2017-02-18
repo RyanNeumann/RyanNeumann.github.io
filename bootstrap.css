@@ -662,6 +662,7 @@ a:focus {
 p {
   margin: 0 0 10px;
   color: white;
+    font-size-adjust: auto;
 }
 
 .lead {
@@ -6339,3 +6340,4 @@ fieldset {
 :-ms-input-placeholder {
  color:#888;
 }
+
