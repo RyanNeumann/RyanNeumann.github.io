@@ -53,7 +53,8 @@ div.profile {
 
 h1.welcome{
     
-    font-size: auto;
+    font-size: 85;
+    text-align: center;
 }
 
 article,
