@@ -51,6 +51,11 @@ div.profile {
     
 }
 
+h1.welcome{
+    
+    font-size: auto;
+}
+
 article,
 aside,
 details,
