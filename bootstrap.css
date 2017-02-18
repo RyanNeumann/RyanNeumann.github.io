@@ -41,19 +41,15 @@
 }
 
 div.profile {
-    
-    
-    border-radius: 100%; /*don't forget prefixes*/
-    border-color: floralwhite;
     background-image: url("http://ryanmneumann.me/LinkedInProfile.jpg");
     background-position: center center;
-    background-size: cover;
+    background-size:contain;
     
 }
 
 h1.welcome{
     
-    font-size: 85;
+    font-size: 100%;
     text-align: center;
 }
 
@@ -65,6 +61,7 @@ figure,
 footer,
 header,
 hgroup,
+img,
 nav,
 section {
   display: block;
@@ -72,17 +69,21 @@ section {
 
 .thumbnail:hover {
     position:relative;
-    width:450px;
+    width:85%;
+    height:auto;
+}
+
+.thumbnail_mobile:hover {
+    position:relative;
+    width:60%;
     height:auto;
 }
 
 .profile:hover{
     position:relative;
-    
-    height:auto;
     display:block;
     z-index:999;
-    
+    top: -10px;
     
 }
 
@@ -91,6 +92,16 @@ section {
     position:relative;
     /*width:100px;*/
     top: -25px;
+    height:auto;
+    display:block;
+    z-index:999;
+}
+
+.tinyTN_mobile:hover {
+    
+    position:relative;
+    /*width:100px;*/
+    top: -10px;
     height:auto;
     display:block;
     z-index:999;
@@ -5638,12 +5649,6 @@ input[type="submit"].btn.btn-mini {
   
   line-height: 20px;
   
-  -webkit-border-radius: 0px;
-     -moz-border-radius: 0px;
-          border-radius: 0px;
-  -webkit-box-shadow: 0 0px 0px rgba(0, 0, 0, 0.055);
-     -moz-box-shadow: 0 0px 0px rgba(0, 0, 0, 0.055);
-          box-shadow: 0 0px 0px rgba(0, 0, 0, 0.055);
   -webkit-transition: all 0.2s ease-in-out;
      -moz-transition: all 0.2s ease-in-out;
        -o-transition: all 0.2s ease-in-out;
@@ -5653,19 +5658,16 @@ input[type="submit"].btn.btn-mini {
 a.thumbnail:hover,
 a.thumbnail:focus {
 
-    image-resolution: snap;
+    
 }
 
 .thumbnail > img {
-  display: block;
   max-width: 100%;
   margin-right: auto;
   margin-left: auto;
 }
 
 .thumbnail .caption {
-  padding: 0px;
-  color: #555555;
 }
 
 .media,
@@ -6378,6 +6380,22 @@ h1.retroshadow {
     font-family: inherit;
     font-weight: bold;
     line-height: 120px;
+    text-align: center;
+    text-rendering: optimizelegibility;
+    color: ghostwhite;
+    letter-spacing: .05em;
+    text-shadow: 
+      -2px -2px 5px black;
+      -7px -7px 10px rgba(0, 0, 0, 0.2);
+  }
+
+h1.retroshadow_mobile {
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+    font-size: 80px;
+    margin: 10px 0;
+    font-family: inherit;
+    font-weight: bold;
+    line-height: 100px;
     text-align: center;
     text-rendering: optimizelegibility;
     color: ghostwhite;
