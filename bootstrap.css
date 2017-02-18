@@ -70,6 +70,35 @@ section {
   display: block;
 }
 
+.thumbnail:hover {
+    position:relative;
+    width:450px;
+    
+    height:auto;
+    display:block;
+    z-index:999;
+}
+
+.profile:hover{
+    position:relative;
+    
+    height:auto;
+    display:block;
+    z-index:999;
+    
+    
+}
+
+.tinyTN:hover {
+    
+    position:relative;
+    /*width:100px;*/
+    top: -25px;
+    height:auto;
+    display:block;
+    z-index:999;
+}
+
 audio,
 canvas,
 video {
@@ -775,7 +804,6 @@ h4.test{
     
     
 }
-h1 small,
 h2 small,
 h3 small,
 h4 small,
@@ -794,7 +822,7 @@ ul.big{
     color: white;
     text-rendering: optimizeLegibility;
 }
-h1,
+
 h2,
 h3 {
   line-height: 40px;
@@ -6346,4 +6374,36 @@ fieldset {
 :-ms-input-placeholder {
  color:#888;
 }
+       
+    
+h1.retroshadow {
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+    font-size: 100px;
+    margin: 10px 0;
+    font-family: inherit;
+    font-weight: bold;
+    line-height: 120px;
+    text-align: center;
+    text-rendering: optimizelegibility;
+    color: ghostwhite;
+    letter-spacing: .05em;
+    text-shadow: 
+      -2px -2px 5px black;
+      -7px -7px 10px rgba(0, 0, 0, 0.2);
+  }
 
+h1.retroshadows {
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+    font-size: 40px;
+    margin: 10px 0;
+    font-family: inherit;
+    font-weight: bold;
+    line-height: 30px;
+    text-align: center;
+    text-rendering: optimizelegibility;
+    color: ghostwhite;
+    letter-spacing: .05em;
+    text-shadow: 
+      -2px -2px 5px black;
+      -7px -7px 10px rgba(0, 0, 0, 0.2);
+  }
