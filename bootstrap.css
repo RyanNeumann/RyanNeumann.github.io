@@ -73,10 +73,7 @@ section {
 .thumbnail:hover {
     position:relative;
     width:450px;
-    
     height:auto;
-    display:block;
-    z-index:999;
 }
 
 .profile:hover{
