@@ -67,6 +67,7 @@ section {
   display: block;
 }
 
+
 .thumbnail:hover {
     position:relative;
     width:85%;
@@ -79,12 +80,20 @@ section {
     height:auto;
 }
 
+
+
+.profile{
+    padding: 0px; 
+    border-radius: 0px 0px 40% 40%; 
+    box-shadow: 0px 0px 30px white;
+}
+
 .profile:hover{
     position:relative;
     display:block;
     z-index:999;
     top: -10px;
-    
+    box-shadow: 0px 20px 30px white;
     
 }
 
@@ -344,7 +353,7 @@ a:focus {
 .navbar-static-top .container,
 .navbar-fixed-top .container,
 .navbar-fixed-bottom .container {
-  width: 940px;
+  width: 100%;
 }
 
 .span12 {
@@ -6476,3 +6485,4 @@ h1.retroshadows {
       -2px -2px 5px black;
       -7px -7px 10px rgba(0, 0, 0, 0.2);
   }
+
