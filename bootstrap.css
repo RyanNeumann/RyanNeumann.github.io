@@ -807,7 +807,7 @@ h6 {
   font-family: inherit;
   font-weight: bold;
   line-height: 20px;
-  color: ghostwhite;
+  color: white;
   text-rendering: optimizelegibility;
 }
 
@@ -829,7 +829,7 @@ h5 small,
 h6 small {
   font-weight: normal;
   line-height: 1;
-  color: #999999;
+  color: #8E0E00;
 }
 
 
@@ -6302,7 +6302,7 @@ body {
 }
 
 #contact h3 {
-	color: #F96;
+	color: #8E0E00;
 	display: block;
 	font-size: 30px;
 	font-weight: 400;
@@ -6312,6 +6312,7 @@ body {
 	margin:5px 0 15px;
 	display:block;
 	font-size:13px;
+    color: #8E0C00;
 }
 
 
@@ -6319,6 +6320,7 @@ body {
 fieldset {
 	border: medium none !important;
 	margin: 0 0 10px;
+    align-items: center;
 	min-width: 100%;
 	padding: 0;
 	width: 100%;
@@ -6349,7 +6351,7 @@ fieldset {
 	cursor:pointer;
 	width:100%;
 	border:none;
-	background:#0CF;
+	background: linear-gradient(180deg, #8E0E00 , #1F1C18);
 	color:#FFF;
 	margin:0 0 5px;
 	padding:10px;
