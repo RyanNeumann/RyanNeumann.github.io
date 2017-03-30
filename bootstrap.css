@@ -72,6 +72,8 @@ section {
     position:relative;
     width:85%;
     height:auto;
+    
+    
 }
 
 .thumbnail_mobile:hover {
@@ -92,8 +94,10 @@ section {
     position:relative;
     display:block;
     z-index:999;
+    transition: border-radius 0.5s linear, box-shadow 0.5s ease;
+    border-radius: 10% 10% 10% 10%;
     top: -10px;
-    box-shadow: 0px 20px 30px white;
+    box-shadow: 0px 20px 60px springgreen;
     
 }
 
@@ -101,11 +105,16 @@ section {
     
     position:relative;
     /*width:100px;*/
-    top: -25px;
+    top: -10px;
     height:auto;
     display:block;
     z-index:999;
+    color: springgreen;
+    
+    
 }
+
+
 
 .tinyTN_mobile:hover {
     
@@ -742,7 +751,8 @@ cite {
 }
 
 .muted {
-  color: ghostwhite;
+  color: white;
+    text-align: center;
 }
 
 a.muted:hover,
@@ -811,7 +821,13 @@ h6 {
   text-rendering: optimizelegibility;
 }
 
-h4.test{
+h3.test:hover {
+    
+    color: springgreen;
+    
+}
+
+h4.test {
     
     margin: 10px 0;
     font-family: inherit;
@@ -6441,15 +6457,14 @@ body{
   animation:noise-anim-2 3s infinite linear alternate-reverse;
 }
 h1.retroshadow {
-    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
-    font-size: 100px;
+    font-family: "Brush Script MT", cursive;
+    font-size: 150px;
     margin: 10px 0;
-    font-family:cursive;
     font-weight: bold;
     line-height: 120px;
     text-align: center;
     text-rendering: optimizelegibility;
-    color: ghostwhite;
+    color: white;
     letter-spacing: .05em;
     text-shadow: 
       -2px -2px 5px black;
@@ -6457,7 +6472,7 @@ h1.retroshadow {
   }
 
 h1.retroshadow_mobile {
-    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+    font-family: "Brush Script MT", cursive;
     font-size: 80px;
     margin: 10px 0;
     font-family: inherit;
@@ -6465,7 +6480,7 @@ h1.retroshadow_mobile {
     line-height: 100px;
     text-align: center;
     text-rendering: optimizelegibility;
-    color: ghostwhite;
+    color: white;
     letter-spacing: .05em;
     text-shadow: 
       -2px -2px 5px black;
