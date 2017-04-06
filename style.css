@@ -160,7 +160,6 @@ p.columnText {
 
 ul {
     
-    
     text-decoration: none;
     list-style-type: none;
     margin: 0;
@@ -184,6 +183,7 @@ li {
 }
 
 a {
+    
     
     color: white;
     text-decoration: underline;
