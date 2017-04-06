@@ -80,8 +80,8 @@ body {
 
 h2.columnHead:hover {
     
-    transition: color 2.0s ease;
-    color: limegreen;
+    
+    color: palegreen;
     
 }
 
@@ -108,6 +108,7 @@ h2.columnHead:hover {
 
 h2.columnHead {
     
+    transition: color 2.0s ease;
     color: white;
     text-decoration: underline;
     border-right: thin solid black;
