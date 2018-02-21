@@ -1,0 +1,52 @@
+I recently stumbled upon a new cryptocurrency that seems to be catching a lot of people's interest.  If you would like to check it out, I'll leave some instructions on how to set it up.  It is not currently on the market, but is expect to be by the end of March 2018.  The valuation for Origin coin is around $0.50, so mining multiple coins a day should pay out huge in a seemingly short amount of tim
+e.
+
+1.  Make sure you have oracle jdk 8 (To check, go to cmd/terminal and type "java -version").  Simple download from the oracle site should do.
+  
+2.  Go to https://bitbucket.org/backspace119/ki-project-origin/downloads/ and download 3 files:  
+     -Origin.exe
+     -OriginPool.exe
+     -Origin-X.XX.X-BETA-shaded.jar (Currently Origin-0.17.6-BETA-shaded.jar)  ***Make sure to click keep.  Windows Firewall will detect it, but the file is safe.  
+
+***Also, this can be run on any platform that has java.  If you want to run it from the cmd/terminal without the .exe files, simply put Origin-X.XX.X-BETA-shaded.jar in two separate folders, and run "java -jar Origin-X.XX.X-BETA-shaded.jar -lite" for the wallet application and "java -jar Origin-X.XX.X-BETA-shaded.jar -pool) for the pool application.  
+
+3.  Once you have these files downloaded, create a separate folder called Origin.  
+
+4.  Place Origin.exe and a copy of Origin-X.XX.X-BETA-shaded.jar
+
+5.  This part is important!!!! -  Make another folder called Pool inside the Origin folder, placing OriginPool.exe and a copy of Origin-X.XX.X-BETA-shaded.jar in that folder as well.  
+
+Your setup should look like this
+
+Origin
+|
+   Origin.exe
+   Origin-X.XX.X-BETA-shaded.jar
+   Pool (Folder you created)
+   |
+      OriginPool.exe
+      Origin-X.XX.X-BETA-shaded.jar
+
+6.  If your Origin folder looks like that, you should be good to go!
+
+7.  Open both Origin.exe and OriginPool.exe.  2 windows should open up with a password field.  
+
+8.  Type a password into both, which at first use will set that as your password.  (If it says "Incorrect password", just delete the "Security" folder from either the Origin or Pool folder (whichever is giving you the issue))
+
+9.  Once you click the dropdown, one window will show your wallet, as well as a tab below it that says address.  Click wallet and then the button that says "Copy Address".
+
+10.  Go to the other window that was opened.  Click the dropdown again and navigate to Pool.  In the field that says "PayTo Address*", paste the wallet address that you copied earlier.  
+
+11.  For the next field, "Pool IP*", you have a few options.  You can enter my pool (rypool.ddns.net), which has a 0.25% fee, and pays out every 60 minutes.  Or, feel free to join the Origin Coin discord (https://discord.gg/RQmjPQH), which has a list of pools that you can join.  After you have found one you like, click "Connect" and toggle on the switch that say "Auto-mine on reconnect".  
+
+12.  After you have all that set, in the window where you set your payto address and pool ip, click the tab that says "Mining".  
+
+13.  Click start mining and you should be good to go!  Feel free to leave it running as long as you want.  As we collectively mine through blocks, you will begin to see your transaction count and Origin increase.  
+
+Recommended Specs:  CPU with at least 2 cores.  Preferably 4 GB of RAM.  
+
+I tried running this program on my Raspberry pi 3 (1 gb of ram, quad core) and it launched, but was very sluggish.  The miner makes use of your GPU as well, so the pi proved to be useless.  
+
+If you guys have any question - feel free to DM me on discord (Ryaneu95)
+
+Also feel free to check out the site - www.OriginOra.com
